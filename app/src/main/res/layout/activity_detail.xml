@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity"
+    android:layout_marginLeft="20dp">
+
+    <TextView
+        android:id="@+id/course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Course Name"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/course_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BG-1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#0E0C0C" />
+
+    <TextView
+        android:id="@+id/course_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is code." />
+
+    <TextView
+        android:id="@+id/course_professor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Joshua" />
+
+</LinearLayout>
